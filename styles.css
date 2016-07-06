@@ -1,9 +1,13 @@
 body {
 	text-align: center;
+	background-image: url('./Mathematics_concept_collage.jpg');
+	background-position: fixed;
 
 }
 
 .cuerpo {
+	position: relative;
+	top: 100px;
 	width: 300px;
 	height: 400px;
 	background-color: grey;
