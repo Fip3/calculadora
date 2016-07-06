@@ -1,0 +1,96 @@
+body {
+	text-align: center;
+
+}
+
+.cuerpo {
+	width: 300px;
+	height: 400px;
+	background-color: grey;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+
+}
+
+.pantalla {
+	font-family: 'Share Tech Mono', monospace;
+	display: inline-block;
+	text-align: center;
+	width: 90%;
+	height: 20%;
+	background-color: lightgrey;
+	margin: 10px;
+	position: relative;
+}
+
+.historial,
+.entrada {
+	text-align: right;
+}
+
+
+.historial{
+	padding: 5px;
+	font-size: 16px;
+
+}
+.entrada{
+	padding: 5px;
+	font-size: 32px;
+}
+
+.teclas {
+	font-family: 'Space Mono', monospace;
+	display: flex;
+	text-align: center;
+	width: 90%;
+	height: 80%;
+	margin: 10px;
+	background-color: none;
+	position: relative;
+
+}
+
+.numeros,
+.operadores {
+	width: 75%;
+	height: 80%;
+	text-align: center;
+	display: inline-block;
+}
+
+.operadores {
+	margin-left: 10px;
+	width: 25%;
+}
+
+.boton {
+	margin: 3px;
+	line-height: 3em;
+	background: teal;
+}
+ .boton:hover {
+ 	background: lightblue;
+ }
+
+.igual {
+	width: 67%;
+}
+
+.row {
+	width: 100%;
+	height: 25%;
+	display: flex;
+}
+
+.btn-op {
+	width: 100%;
+}
+
+.btn-num{
+	width: 33%;
+}
+
+
